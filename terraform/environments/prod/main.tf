@@ -24,7 +24,7 @@ module "app_vm" {
   source = "../../modules/vm"
   environment = "prod"
   vm_name = "machine"
-  vm_count = 5
+  vm_count = 1
   vm_role = "app"
   subnet_id = module.network.subnet_id
 }
